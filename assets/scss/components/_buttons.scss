@@ -1,12 +1,14 @@
 .button-primary{
     border: 1px solid rgb(233, 203, 118);
     border-radius: 55px;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     background-color: $color-primary;
     box-shadow: 0px 3px 34.96px 3.04px rgba(0, 0, 0, 0.35); 
 }
 
 .button-secondary{
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     background-color: $color-secondary;
     border: 1px solid rgb(57, 165, 142);
