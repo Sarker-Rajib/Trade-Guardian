@@ -1,0 +1,129 @@
+.mm-system-and-transaction{
+   padding-bottom: 50px;
+   background:  url(../images/bg/pattern.png) no-repeat bottom center/contain;
+   overflow: hidden;
+  
+   .mm-system{
+      .mm-work-system{
+         .header{
+            h2{
+               padding-bottom: 35px;
+               // font-size: 50px;
+               color: rgb(255, 255, 255);
+               font-weight: 700;
+               line-height: 1.3;
+               text-align: center;
+            }
+         }
+
+         .body-content{
+            .cards{
+               display: grid;
+               grid-gap: 15px;
+               grid-template-columns: repeat(5, 1fr);
+
+               @media screen and (max-width: 1199px){
+                  grid-template-columns: repeat(4, 1fr);
+               }
+
+               @media screen and (max-width: 991px){
+                  grid-template-columns: repeat(3, 1fr);
+               }
+
+               @media screen and (max-width: 767px){
+                  grid-template-columns: repeat(2, 1fr);
+               }
+
+               @media screen and (max-width: 490px){
+                  grid-template-columns: 1fr;
+               }
+      
+               .system-card{
+                  padding: 20px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  border: 1px solid rgb(251, 205, 68);
+                  border-radius: 50px;
+                  background-color: rgb(63, 70, 78);
+                  box-shadow: 0px 3px 34.96px 3.04px rgba(0, 0, 0, 0.35);    
+                  
+                  p{
+                     // font-size: 20px;
+                     font-family: 'Lato', sans-serif;
+                     text-align: center;
+                     color: rgb(255, 255, 255);
+                     font-weight: 700;
+                  }
+               }
+            }
+         }
+      }
+   
+      .warning-content{
+         padding: 100px 0;
+         display: flex;
+         justify-content: center;
+
+         @media screen and (max-width: 991px) {
+            padding: 40px 0px;
+         }
+   
+         .warning-card{
+            border: 1px solid rgb(233, 203, 118);
+            border-radius: 55px;
+            background-color: rgb(80, 86, 93);
+            box-shadow: 0px 3px 34.96px 3.04px rgba(0, 0, 0, 0.35); 
+            text-align: center;
+   
+            h4 {
+               padding-top: 50px;
+               // font-size: 36px;
+               font-family: "Lato";
+               color: rgb(255, 255, 255);
+               font-weight: 700;
+               line-height: 1.3;
+               text-align: center;
+            }
+   
+            p{
+               padding: 25px 0 50px;
+               // font-size: 18px;
+               font-family: 'Lato', sans-serif;
+               color: rgb(255, 255, 255);
+               font-weight: 700;
+               text-align: center;
+            }
+             
+         }  
+      }
+   }
+
+   .transaction{
+      .text{
+         h3{
+            // font-size: 35px;
+            font-family: "Lato";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            line-height: 1.3;
+            text-align: center;
+         }
+          
+         .form-control {
+            margin: 30px 0;
+            border: 1px solid rgb(57, 165, 142);
+            border-radius: 17px;
+            background: rgba(0, 0, 0, 0);
+            padding: 10px 15px;
+            color: #ffffff;
+         }
+
+         .rate{
+            font-size: 20px;
+            font-weight: 700;
+         }
+      }       
+   }
+}

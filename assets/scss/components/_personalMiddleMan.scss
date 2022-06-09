@@ -1,0 +1,19 @@
+.personal-middleman{
+    padding: 100px 0;
+
+    @media screen and (max-width: 991px) {
+        padding: 50px 0px;
+     }
+
+
+    .middleman-list{
+        padding-top: 35px;
+
+        li{
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            margin-bottom: 5px;
+        }
+    }
+}

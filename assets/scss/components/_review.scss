@@ -1,0 +1,35 @@
+.reviews{
+   padding: 150px 0 50px;
+   background: url(../images/bg/review.png) no-repeat top center/cover;
+
+   @media screen and (max-width: 991px) {
+      padding: 50px 0;
+   }
+
+   .section-header{
+      padding-bottom: 60px;
+      h2{
+         font-weight: 700;
+      }
+   }
+
+   .content-body{
+      
+      .review-card{
+            
+         .card{
+            background: #3f464e;
+            border-radius: 16px;
+            background-color: rgb(63, 70, 78);
+            box-shadow: 0px 0px 59px 0px rgba(0, 0, 0, 0.21);
+               
+            .placeholder{
+               color: #515963;
+               border-radius: 35px;
+               height: 10px !important;
+            }
+         }
+      }
+      
+   }
+}
