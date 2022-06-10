@@ -6,8 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Trade Guardian</title>
   <link rel='shortcut icon' href='assets/images/logo.png' type='image/x-icon'>
-  <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/vendor/Swiper-slider/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -19,7 +17,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="text pt-0 pt-md-5">
+            <div class="text">
               <h1>Trade Guardian</h1>
               <p>Trade Guardian is our automated middleman <br>
                 system that can be used for trading or selling.
@@ -28,7 +26,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="image px-0 px-md-5">
+            <div class="image">
               <img src="assets/images/logo.png" class="img-fluid" alt="BRAND LOGO">
             </div>          
           </div>
@@ -97,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="warning-content ">
+        <div class="warning-content">
           <div class="warning-card p-4 col-12 col-md-8 col-lg-6">
             <h4>Warning</h4>
             <p>All Trade Guardian transactions, including middleman
@@ -108,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="transaction mt-0 pt-md-5">
+    <div class="transaction">
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
@@ -119,21 +117,26 @@
           <div class="col-lg-7">
             <div class="text">
               <h3>Begin a transaction with this member:</h3>
-              <form>
-                <input type="text" class="form-control" placeholder="Username...">
-                <h4 class="text-white"> <span><img class="img-fluid me-2" width="30" src="assets/images/check-rounded.png" alt="imgs"></span> Personal Middleman</p>
-                <div class="text-center">
-                  <button class="button-secondary btn-lg btn text-white mt-5 mb-3">Begin Transaction</button>
-                  <br>
-                  <span class="rate">$4.95 + %6</span>
-                </div>
-              </form>
+              <input type="text" class="form-control" placeholder="Username...">
+              <div  class="text-white check">
+
+                <img class="img-fluid" width="30" src="assets/images/check-rounded.png" alt="imgs">
+
+                <p>Personal Middleman</p>
+       
+              </div>
+              
+              <div class="text-center">
+                <button class="button-secondary text-white">Begin Transaction</button>
+              </div>
+              <p class="rate text-center">$4.95 + %6</p>
+         
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>  
+  </section>
   <!-- mm-system -->
 
   <!-- personal-middleman -->
@@ -142,7 +145,7 @@
       <div class="row">
         <div class="col-lg-8">
           <h2 class="text-white">Personal Middleman</h2>
-          <ul class="middleman-list ps-0">
+          <ul class="middleman-list">
             <li>
               <img class="img-fluid" src="assets/images/star.png" alt="star"> <p>MM will hold the item or account and secure it until payment is made.</p>
             </li>
@@ -157,16 +160,16 @@
             </li>
           </ul>
 
-          <a href="#" class="btn button-primary text-white mt-4">More info about Middleman Services</a>
+          <a href="#" class="btn button-primary more-info text-white">More info about Middleman Services</a>
         </div>
-        <div class="col-lg-4 pt-4 pt-lg-0">
+        <div class="col-lg-4">
           <div class="image">
             <img src="assets/images/3d-check.png" class="img-fluid" alt="">
           </div>
         </div>
       </div>
     </div>
-  </section>  
+  </section>
   <!-- personal-middleman -->
 
   <!-- reviews -->
@@ -176,36 +179,46 @@
         <h2 class="text-center text-white">Reviews</h2>
       </div>
       <div class="content-body">
-        <div class="row gx-4 gy-sm-0 gy-4">
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="swiper-slide h-100">
-              <div class="review-card h-100">         
-                <div class="card h-100">
-                  <div class="card-body text-center">
-                    <h3 class="text-white text-center pb-2">Excellent</h3>
-                    <div class="buttons-group d-flex justify-content-center">
-                      <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/stars-single.png" alt="star"></button>
-                      <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/stars-single.png" alt="star"></button>
-                      <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/stars-single.png" alt="star"></button>
-                      <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/stars-single.png" alt="star"></button>
-                      <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/stars-single.png" alt="star"></button>
-                    </div>
-                    <p class="text-white text-center">Based on 8,783 reviews</p>
-                    <img class="img-fluid mt-2" src="assets/images/trustpilot.png" alt="image">
+        <div class="row">
+          <div class="main-view">
+            <div class="review-card w-100 h-100">         
+              <div class="card w-100 h-100">
+                <div class="card-body w-100 text-center h-100">
+                  <h3 class="text-white">Excellent</h3>
+                  <div class="buttons">
+                    <button class="btn">
+                      <img class="img-fluid" src="assets/images/stars-single.png" alt="img">
+                    </button>
+                    <button class="btn">
+                      <img class="img-fluid" src="assets/images/stars-single.png" alt="img">
+                    </button>
+                    <button class="btn">
+                      <img class="img-fluid" src="assets/images/stars-single.png" alt="img">
+                    </button>
+                    <button class="btn">
+                      <img class="img-fluid" src="assets/images/stars-single.png" alt="img">
+                    </button>
+                    <button class="btn">
+                      <img class="img-fluid" src="assets/images/stars-single.png" alt="img">
+                    </button>
+                  </div>
+                  <p class="text-white text-center">Based on 8,783 reviews</p>
+                  <div>
+                    <img class="img-fluid" src="assets/images/trustpilot.png" alt="image">
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-8 col-lg-9">
-            <div class="swiper reviewSwiper">
-              <div class="swiper-wrapper d-flex align-items-center">
-                <div class="swiper-slide">
-                  <div class="review-card">         
-                    <div class="card">
-                      <div class="card-body">
-                        <div class="row mb-3 align-items-center">
-                          <div class="col-6">
+          <div class="comment-view">
+            <div class="swiper-slide w-100">
+              <div class="swiper reviewSwiper w-100">
+                <div class="swiper-wrapper d-flex align-items-center w-100">
+                  <div class="swiper-slide w-100">
+                    <div class="review-card w-100">         
+                      <div class="card w-100">
+                        <div class="card-body w-100">
+                          <div class="row w-100 align-items-center justify-content-between">
                             <div class="buttons-group d-flex">
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
@@ -213,64 +226,30 @@
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
                             </div>
+                     
+                            <img class="img-fluid avatar rounded-circle" src="assets/images/dummy-profile-pic.jpg" width="50" alt="img">
                           </div>
-                          <div class="col-5 h-100 text-end"><img class="img-fluid avatar rounded-circle" src="assets/images/dummy-profile-pic.jpg" width="50" alt="img"></div>
-                        </div>
-      
-                        <div>
-                          <p class="text text-white">
-                            Lorem ipsum dolor sit amet consectetur
-                            elit. Quasi numquam,
-                            perspiciatis dicta sunt error!
-                          </p>
-                          <br> 
-                          <h5 class="name text-white">Mr. Micheal</h5>
-                          <p class="title text-white"><em>CEO, Y Corporation</em>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="review-card">         
-                    <div class="card">
-                      <div class="card-body">
-                        <div class="row mb-3 align-items-center">
-                          <div class="col-6">
-                            <div class="buttons-group d-flex">
-                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
-                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
-                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
-                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
-                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
-                            </div>
+        
+                          <div>
+                            <p class="text text-white">
+                              Lorem ipsum dolor sit amet consectetur
+                              elit. Quasi numquam,
+                              perspiciatis dicta sunt error!
+                            </p>
+                            <br> 
+                            <h5 class="name text-white">Mr. Micheal</h5>
+                            <p class="title text-white"><em>CEO, Y Corporation</em>
+                            </p>
                           </div>
-                          <div class="col-5 h-100 text-end"><img class="img-fluid avatar rounded-circle" src="assets/images/dummy-profile-pic.jpg" width="50" alt="img"></div>
-                        </div>            
-                        
-      
-                        <div>
-                          <p class="text text-white">
-                            Lorem ipsum dolor sit amet consectetur
-                            elit. Quasi numquam,
-                            perspiciatis dicta sunt error!
-                          </p>
-                          <br> 
-                          <h5 class="name text-white">Mr. Micheal</h5>
-                          <p class="title text-white"><em>CEO, Y Corporation</em></p>
-                         
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="review-card">         
-                    <div class="card">
-                      <div class="card-body">
-                        <div class="row mb-3 align-items-center">
-                          <div class="col-6">
+                  <div class="swiper-slide w-100">
+                    <div class="review-card w-100">         
+                      <div class="card w-100">
+                        <div class="card-body w-100">
+                          <div class="row w-100 align-items-center justify-content-between">
                             <div class="buttons-group d-flex">
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
@@ -278,21 +257,52 @@
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
                               <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
                             </div>
+                     
+                            <img class="img-fluid avatar rounded-circle" src="assets/images/dummy-profile-pic.jpg" width="50" alt="img">
                           </div>
-                          <div class="col-5 h-100 text-end"><img class="img-fluid avatar rounded-circle" src="assets/images/dummy-profile-pic.jpg" width="50" alt="img"></div>
-                        </div>            
-                        
-      
-                        <div>
-                          <p class="text text-white">
-                            Lorem ipsum dolor sit amet consectetur
-                            elit. Quasi numquam,
-                            perspiciatis dicta sunt error!
-                          </p>
-                          <br> 
-                          <h5 class="name text-white">Mr. Micheal</h5>
-                          <p class="title text-white"><em>CEO, Y Corporation</em></p>
-                         
+        
+                          <div>
+                            <p class="text text-white">
+                              Lorem ipsum dolor sit amet consectetur
+                              elit. Quasi numquam,
+                              perspiciatis dicta sunt error!
+                            </p>
+                            <br> 
+                            <h5 class="name text-white">Mr. Micheal</h5>
+                            <p class="title text-white"><em>CEO, Y Corporation</em>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide w-100">
+                    <div class="review-card w-100">         
+                      <div class="card w-100">
+                        <div class="card-body w-100">
+                          <div class="row w-100 align-items-center justify-content-between">
+                            <div class="buttons-group d-flex">
+                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
+                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
+                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
+                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
+                              <button class="btn m-0 p-0"><img class="img-fluid" src="assets/images/starrs-small.png" alt="star"></button>
+                            </div>
+                     
+                            <img class="img-fluid avatar rounded-circle" src="assets/images/dummy-profile-pic.jpg" width="50" alt="img">
+                          </div>
+        
+                          <div>
+                            <p class="text text-white">
+                              Lorem ipsum dolor sit amet consectetur
+                              elit. Quasi numquam,
+                              perspiciatis dicta sunt error!
+                            </p>
+                            <br> 
+                            <h5 class="name text-white">Mr. Micheal</h5>
+                            <p class="title text-white"><em>CEO, Y Corporation</em>
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -304,33 +314,31 @@
         </div>
       </div>
     </div>
-  </section>  
+  </section>
   <!-- reviews -->
 
   <!-- video instruction -->
-  <section class="video-instruction pb-5">
+  <section class="video-instruction">
     <div class="section-header">
       <div class="header-wrapper">
         <h2 class="text-center text-white">Video instruction</h2>
       </div>
-
     </div>
 
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-10 col-md-8 pb-5">
+        <div class="video-wrapper">
           <div class="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/i810CxN5Q6Q" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/i810CxN5Q6Q" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
           </div>
         </div>
       </div>
     </div>
-  </section>  
+  </section>
   <!-- video instruction -->
 
-
   <!-- script -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/vendor/Swiper-slider/js/swiper-bundle.min.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>

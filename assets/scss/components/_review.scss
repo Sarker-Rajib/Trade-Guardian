@@ -1,5 +1,5 @@
 .reviews{
-   padding: 150px 0 50px;
+   padding: 165px 0 50px;
    background: url(../images/bg/review.png) no-repeat top center/cover;
 
    @media screen and (max-width: 991px) {
@@ -16,29 +16,103 @@
    }
 
    .content-body{
-      .review-card{
+
+      .main-view{
+         width:100%;
+         padding-bottom: 15px;
+         padding-right: 20px;
+         @media screen and (min-width: 576px){
+            width:50%;
+         }
+
+         @media screen and (min-width: 768px){
+            width:33.3333%;
+         }
+
+         @media screen and (min-width: 992px){
+            width:25%;
+         }
+
          .card{
             background: #3f464e;
             border-radius: 15px;
             box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
 
-            .avatar{
-               border: 2px solid #ffffff;
-            }
-
-            .title{
-               font-weight: 500;
-            }
-
-            .name{
-               font-weight: 700;
-            }
-
-            .title{
-               font-weight: 500;
+            .card-body{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               padding: 10px;
+               padding: 20px;
+               
+               .buttons{
+                  width: 100%;
+                  text-align: center;
+                  padding: 14px 0;
+               }
+      
+               p{
+                  padding-bottom: 5px;
+               }
+      
+               img{
+                  padding-bottom: 5px;
+               }
             }
          }
+
       }
-      
+
+      .comment-view{
+         width:100%;
+         padding: 0 0.5rem;
+
+         @media screen and (min-width: 576px){
+            width:50%;
+         }
+
+         @media screen and (min-width: 768px){
+            width:66.666666%;
+         }
+
+         @media screen and (min-width: 992px){
+            width:75%;
+         }
+
+         .review-card{
+            .card{
+               background: #3f464e;
+               border-radius: 15px;
+               box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+   
+               .card-body{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  padding: 10px;
+                  padding: 20px;
+               }
+   
+               .avatar{
+                  border: 2px solid #ffffff;
+                  border-radius: 50%;
+               }
+   
+               .text{
+                  padding-top: 20px;
+               }
+   
+               .name{
+                  font-size: 20px;
+                  font-weight: 700;
+               }
+   
+               .title{
+                  font-weight: 500;
+               }
+            }
+         } 
+      }
+
    }
 }
